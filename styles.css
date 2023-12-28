@@ -1,1 +1,65 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
+.banner {
+  width: 100%;
+  min-width: 1280px;
+}
+
+header h1 {
+  position: absolute;
+  top: 270px;
+  left: 139px;
+  width: 400px;
+  font-size: 60px;
+  font-family: Avenir;
+}
+
+.navbar {
+  font-size: 18px;
+  font-family: Avenir, Helvetica, Sans-serif;
+  height: 50px;
+  background-color: black;
+}
+
+.navbar ul{
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.navbar li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+div img {
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.CSS img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 75px;
+}
