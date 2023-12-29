@@ -1,19 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web Design Reference Guide</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
       <ul>
-        <li> <a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="HTML.html">HTML</a></li>
         <li><a href="CSS.html">CSS</a></li>
         <li><a href="Javascript.html">Javascript</a></li>
       </ul>
     </nav>
+    <div class="boilerplate">
+      <table>
+        <thead>
+          <tr>
+            <td colspan="1" class="tabletitle">
+              <h1>Boilerplate Template</h1>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3">
+              <pre>
+        <code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Roughly 155 characters&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;mystyle.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Content --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="basictags">
+      <table class="basictagstable">
+        <thead>
+          <tr>
+            <td colspan="1" class="tabletitle"><h1>Basic Tags</h1></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tableheadings">
+            <td>Tag</td>
+            <td>Name</td>
+            <td>Function</td>
+          </tr>
+          <tr class="taginfo">
+            <td>&lt;html&gt;</td>
+            <td>HTML</td>
+            <td>Creates an HTML document</td>
+          </tr>
+          <tr class="taginfo">
+            <td>&lt;base&gt;</td>
+            <td>Base</td>
+            <td>
+              Specifies the base URL to use for all relative URLs contained
+              within a document. There can only be one <base /> element in a
+              document.
+            </td>
+          </tr>
+          <tr class="taginfo">
+            <td>&lt;head&gt;</td>
+            <td>Head</td>
+            <td>
+              First element of an HTML document; collection of metadata for the
+              document. Creates space for page title (shown in browser tab) and
+              other info that is not shown (link to stylesheet, etc.).
+            </td>
+          </tr>
+          <tr class="taginfo">
+            <td>&lt;link&gt;</td>
+            <td>Link</td>
+            <td>
+              Specifies the relationships between the current document and an
+              external resource; used to link HTML document to corresponding
+              stylesheet.
+            </td>
+          </tr>
+          <tr class="taginfo">
+            <td>&lt;title&gt;</td>
+            <td>Title</td>
+            <td>
+              Puts title of webpage in browser tab; when bookmarking pages, this
+              is what is bookmarked.
+            </td>
+          </tr>
+          <tr class="taginfo">
+            <td>&lt;meta&gt;</td>
+            <td>Meta</td>
+            <td>
+              Represents metadata that cannot be represented by one of the other
+              HTML meta-related elements.
+            </td>
+          </tr>
+          <tr class="taginfo">
+            <td>&lt;style&gt;</td>
+            <td>Style</td>
+            <td>
+              Embed style information in an HTML document. Contents of tags
+              should be written in CSS.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
+</html>
