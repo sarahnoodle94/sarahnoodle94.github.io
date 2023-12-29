@@ -25,6 +25,7 @@ header h1 {
   font-family: Avenir, Helvetica, Sans-serif;
   height: 50px;
   background-color: black;
+  z-index: 1000;
 }
 
 .navbar ul{
@@ -62,4 +63,62 @@ div img {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 75px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+thead td {
+  width: 400px;
+  border: 0;
+}
+
+.tabletitle {
+background-color: #F435AF;
+color: white;
+font-family: avenir;
+padding-left: 25px;
+}
+
+.tableheadings {
+  text-align: center;
+  font-family: avenir;
+  font-size: 22px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
+pre {
+  margin-top: -15px;
+}
+
+.boilerplate {
+  position: relative;
+  Top: 50px;
+  Left: 0px;
+}
+
+code {
+  display: block;
+  background-color: #f5f5f5;
+  padding: 25px;
+  font-family: courier;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.basictags {
+  position: relative;
+  top: 115px;
+}
+
+.taginfo {
+  font-family: avenir;
+  font-size: 16px;
+}
+
+.basictagstable td {
+  padding: 10px;
 }
